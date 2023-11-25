@@ -313,3 +313,55 @@ header {
 .faq.open p {
   display: block;
 }
+
+/* ====================== Testimonials =================== */
+.testimonials__container {
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
+.testimonial {
+  padding-top: 2rem;
+}
+
+.avatar {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border: 1rem solid var(--color-bg1);
+}
+
+.testimonial__info {
+  text-align: center;
+}
+
+.testimonial__body {
+  background: var(--color-primary);
+  padding: 2rem;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.testimonial__body p {
+  font-size: 0.9rem;
+}
+
+.testimonial__body::before {
+  content: "";
+  background: linear-gradient(
+    135deg,
+    transparent,
+    var(--color-primary),
+    var(--color-primary)
+  );
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 50%;
+  top: -1.5rem;
+  transform: translateX(-50%) rotate(45deg);
+}
