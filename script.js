@@ -41,3 +41,8 @@ var swiper = new Swiper(".mySwiper", {
     },
   },
 });
+
+// copyright date
+const today = new Date().getFullYear();
+const copyrightEl = document.querySelector(".footer__copyright span");
+copyrightEl.textContent = today;
