@@ -495,4 +495,52 @@ header {
     background-color: var(--color-bg2);
     color: var(--color-white);
   }
+
+  /* ============ HEADER ============= */
+  header {
+    height: 52vh;
+    margin-bottom: 4rem;
+  }
+
+  .header__container {
+    gap: 0;
+    padding-bottom: 5rem;
+  }
+
+  /* ============ Categories ============= */
+  .categories {
+    height: auto;
+  }
+
+  .categories__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .categories__left {
+    margin-right: 0;
+  }
+
+  /* ============ Courses ============= */
+  .courses {
+    margin-top: 0;
+  }
+
+  .courses__container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* ============ FAQ ============= */
+  .faqs__container {
+    grid-template-columns: 1fr;
+  }
+
+  .faq {
+    padding: 1.5rem;
+  }
+
+  /* ============ Footer ============= */
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
