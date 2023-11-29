@@ -83,6 +83,10 @@ img {
   object-fit: cover;
 }
 
+button {
+  cursor: pointer;
+}
+
 .btn {
   display: inline-block;
   background: var(--color-white);
